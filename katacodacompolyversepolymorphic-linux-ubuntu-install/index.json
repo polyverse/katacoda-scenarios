@@ -31,6 +31,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "polyverse-ubuntu"
+    "imageid": "ubuntu"
   }
 }
