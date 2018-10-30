@@ -8,7 +8,8 @@
     "steps": [
       {
         "title": "Subscribe to Polyverse Repository",
-        "text": "subscribe.md"
+        "text": "subscribe.md",
+        "verify": "subscribe-verify.sh"
       },
       {
         "title": "Reinstall all packages",
@@ -21,7 +22,8 @@
     ],
     "intro": {
       "text": "intro.md",
-      "credits": "Archis Gore"
+      "credits": "Archis Gore",
+      "courseData": "jump-to-ubuntu-container.sh"
     },
     "finish": {
       "text": "finish.md"
@@ -32,5 +34,13 @@
   },
   "backend": {
     "imageid": "polyverse-ubuntu"
+  },
+  "assets": {
+    "client": [
+      {
+        "file": "prepcontainer.sh",
+        "target": "~/scripts"
+      }
+    ]
   }
 }
