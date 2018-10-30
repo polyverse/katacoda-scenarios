@@ -9,7 +9,8 @@
       {
         "title": "Subscribe to Polyverse Repository",
         "text": "subscribe.md",
-        "verify": "subscribe-verify.sh"
+        "verify": "subscribe-verify.sh",
+        "courseData": "jump-to-ubuntu-container.sh"
       },
       {
         "title": "Reinstall all packages",
@@ -22,8 +23,7 @@
     ],
     "intro": {
       "text": "intro.md",
-      "credits": "Archis Gore",
-      "courseData": "jump-to-ubuntu-container.sh"
+      "credits": "Archis Gore"
     },
     "finish": {
       "text": "finish.md"
