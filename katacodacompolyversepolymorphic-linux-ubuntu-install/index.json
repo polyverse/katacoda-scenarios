@@ -1,0 +1,36 @@
+{
+  "pathwayTitle": "Polymorphic Linux",
+  "title": "Production Ubuntu Install",
+  "description": "Polymorphic Linux installation",
+  "difficulty": "trivial",
+  "time": "1 minute",
+  "details": {
+    "steps": [
+      {
+        "title": "Subscribe to Polyverse Repository",
+        "text": "subscribe.md"
+      },
+      {
+        "title": "Reinstall all packages",
+        "text": "reinstall.md"
+      },
+      {
+        "title": "Verify Scrambled Packages",
+        "text": "verify.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "credits": "Archis Gore"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "polyverse-ubuntu"
+  }
+}
