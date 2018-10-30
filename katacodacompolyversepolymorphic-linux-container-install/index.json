@@ -36,7 +36,7 @@
     "imageid": "polyverse-ubuntu"
   },
   "assets": {
-    "client": [
+    "host01": [
       {
         "file": "prepcontainer.sh",
         "target": "~/scripts"
