@@ -6,6 +6,6 @@ apt-get update && apt-get install -y bash
 while true ; do script -q -c "/bin/bash -l" /dev/null ; done
 EOF
 
-chmod a+x /tmp/noxit.sh
+chmod a+x /tmp/noexit.sh
 
 docker run --rm -it -v /tmp/noexit.sh:/noexit.sh ubuntu /noexit.sh
