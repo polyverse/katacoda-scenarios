@@ -4,6 +4,7 @@ cat << EOF > /tmp/noexit.sh
 !/bin/sh
 echo "Preparing Ubuntu container environment..."
 apt-get update && apt-get install -y bash curl
+clear
 echo "Environment ready!"
 while true ; do script -q -c "/bin/bash -l" /dev/null ; done
 EOF
