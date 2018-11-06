@@ -1,7 +1,7 @@
 {
   "pathwayTitle": "Polymorphic Linux",
-  "title": "Production Ubuntu Install",
-  "description": "Polymorphic Linux installation",
+  "title": "Ubuntu Host Installation",
+  "description": "Polymorphic Linux installation on an Ubuntu Host",
   "difficulty": "trivial",
   "time": "1 minute",
   "details": {
@@ -22,8 +22,7 @@
     ],
     "intro": {
       "text": "intro.md",
-      "credits": "Archis Gore",
-      "code": "jump-to-ubuntu-container.sh"
+      "credits": "Archis Gore"
     },
     "finish": {
       "text": "finish.md"
