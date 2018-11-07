@@ -3,7 +3,7 @@
   "title": "Ubuntu Host Installation",
   "description": "Polymorphic Linux installation on an Ubuntu Host",
   "difficulty": "trivial",
-  "time": "1 minute",
+  "time": "10 minutes",
   "details": {
     "steps": [
       {
