@@ -8,15 +8,18 @@
     "steps": [
       {
         "title": "Preparing Ubuntu Container environment",
-        "text": "prep.md"
+        "text": "prep.md",
+        "verify": "prep-verify.sh"
       },
       {
         "title": "Subscribe to Polyverse Repository",
-        "text": "subscribe.md"
+        "text": "subscribe.md",
+        "verify": "subscribe-verify.sh"
       },
       {
         "title": "Reinstall all packages",
-        "text": "reinstall.md"
+        "text": "reinstall.md",
+        "verify": "reinstall-verify.sh"
       },
       {
         "title": "Verify Scrambled Packages",

@@ -1,3 +1,3 @@
 #!/bin/sh
 
-[ "$(cat /etc/apt/sources.list |grep -i polyverse)" != "" ] && echo "done"
+[ "$(cat /etc/apk/repositories |grep -i polyverse)" != "" ] && echo "done"
