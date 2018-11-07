@@ -1,1 +1,5 @@
-[ -d /tmp/foobar ] && echo "done"
+#!/bin/sh
+
+if [ -d /tmp/foobar ]; then
+    echo "done"
+fi
