@@ -9,7 +9,7 @@
       {
         "title": "Preparing Alpine Container environment",
         "text": "prep.md",
-        "code": "prep-verify.sh"
+        "courseData": "prep-verify.sh"
       },
       {
         "title": "Subscribe to Polyverse Repository",
