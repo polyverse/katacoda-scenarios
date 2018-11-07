@@ -6,8 +6,5 @@ The quick and easy way is to check the source of the package. For CentOS, the co
 
 `rpm -qa vendor="*Polyverse*"`{{execute}}
 
-To dig a little deeper, we can verify each binary for a `PV` signature that we add to every executable
-we build.
 
-`echo "Todo"`{{execute}}
 
