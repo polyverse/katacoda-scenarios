@@ -1,1 +1,1 @@
-[ -f /etc/polyverse-env-ready ] && echo "done"
+[ -f /outertmp/polyverse-env-ready ] && echo "done"

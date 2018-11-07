@@ -6,10 +6,10 @@ echo "Preparing Alpine container environment..."
 apk update && apk add bash curl util-linux
 clear
 echo "Environment ready!"
-touch /etc/polyverse-env-ready
+touch /outertmp/polyverse-env-ready
 while true ; do script -q -c "/bin/bash -l" /dev/null ; done
 EOF
 
 chmod a+x /tmp/noexit.sh
 
-docker run --name demo --rm -it -v /tmp/noexit.sh:/noexit.sh alpine /bin/sh /noexit.sh
+docker run --name demo --rm -it -v /tmp:/outertmp alpine /bin/sh /outertmp/noexit.sh
