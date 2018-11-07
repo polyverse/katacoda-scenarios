@@ -3,7 +3,7 @@
 cat << EOF > /tmp/noexit.sh
 !/bin/sh
 echo "Preparing CentOS container environment..."
-yum update -y && yum install -y bash curl
+yum update -y && yum install -y bash curl which
 clear
 echo "Environment ready!"
 echo "done" > /etc/polyverse-env-ready
