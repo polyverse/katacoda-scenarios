@@ -4,6 +4,8 @@ We will walk through the two steps to Polymorphic Linux installation:
 * Subscribing to Polyverse repositories
 * Reinstallation of packages
 
+Finally we will verify Polymorphic Linux in a variety of ways.
+
 This being a complete host reinstall, the reinstall step might take
 the better part of an hour to complete. But it is entirely automatic and
 unsupervised.
