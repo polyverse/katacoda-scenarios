@@ -1,3 +1,3 @@
 #!/bin/sh
 
-[ -f /tmp/polyverse-env-ready ] && echo "done"
+docker exec demo /bin/cat /tmp/polyverse-env-ready
