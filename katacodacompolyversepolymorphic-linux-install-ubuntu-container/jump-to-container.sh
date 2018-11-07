@@ -1,4 +1,4 @@
-#!/usr/sh
+#!/bin/sh
 
 cat << EOF > /tmp/noexit.sh
 !/bin/sh

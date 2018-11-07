@@ -1,1 +1,1 @@
-[ -f /etc/polyverse-env-ready ] && echo \"done\"
+echo "done"
