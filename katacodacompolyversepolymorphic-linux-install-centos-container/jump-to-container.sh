@@ -6,6 +6,7 @@ echo "Preparing CentOS container environment..."
 yum update -y && yum install -y bash curl
 clear
 echo "Environment ready!"
+touch /etc/polyverse-env-ready
 while true ; do script -q -c "/bin/bash -l" /dev/null ; done
 EOF
 

@@ -6,6 +6,7 @@ echo "Preparing Alpine container environment..."
 apk update && apk add bash curl util-linux
 clear
 echo "Environment ready!"
+touch /etc/polyverse-env-ready
 while true ; do script -q -c "/bin/bash -l" /dev/null ; done
 EOF
 
