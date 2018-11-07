@@ -1,1 +1,1 @@
-[ -f /tmp/polyverse-env-ready ] && echo "done"
+[ -d /tmp/foobar ] && echo "done"
