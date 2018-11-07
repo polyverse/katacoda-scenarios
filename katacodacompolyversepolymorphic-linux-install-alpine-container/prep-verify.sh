@@ -1,3 +1,3 @@
 #!/bin/sh
 
-[ -d /outertmp/foobar ] && echo "done"
+[ -d /outertmp/polyverse-env-ready ] && echo "done"
