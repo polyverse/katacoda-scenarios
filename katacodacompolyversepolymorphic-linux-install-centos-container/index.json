@@ -7,6 +7,10 @@
   "details": {
     "steps": [
       {
+        "title": "Preparing CentOS Container environment",
+        "text": "prep.md"
+      },
+      {
         "title": "Subscribe to Polyverse Repository",
         "text": "subscribe.md"
       },
