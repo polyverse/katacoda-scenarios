@@ -13,7 +13,8 @@
       },
       {
         "title": "Reinstall all packages",
-        "text": "reinstall.md"
+        "text": "reinstall.md",
+        "verify": "reinstall-verify.sh"
       },
       {
         "title": "Verify Scrambled Packages",
