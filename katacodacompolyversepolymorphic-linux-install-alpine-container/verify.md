@@ -6,5 +6,3 @@ The quick and easy way is to check the source of the package. For Alpine, the co
 
 `apk info | xargs apk policy`{{execute}}
 
-
-
