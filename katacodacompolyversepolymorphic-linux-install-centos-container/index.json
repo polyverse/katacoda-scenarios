@@ -1,7 +1,7 @@
 {
   "pathwayTitle": "Polymorphic Linux",
-  "title": "Ubuntu Container Installation",
-  "description": "Polymorphic Linux installation in an Ubuntu Container",
+  "title": "CentOS Container Installation",
+  "description": "Polymorphic Linux installation in a CentOS Container",
   "difficulty": "trivial",
   "time": "1 minute",
   "details": {
