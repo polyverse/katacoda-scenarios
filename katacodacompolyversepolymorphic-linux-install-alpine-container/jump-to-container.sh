@@ -3,7 +3,7 @@
 cat << EOF > /tmp/noexit.sh
 !/bin/sh
 echo "Preparing Alpine container environment..."
-apk update && apk add bash curl
+apk update && apk add bash curl util-linux
 clear
 echo "Environment ready!"
 while true ; do script -q -c "/bin/bash -l" /dev/null ; done
