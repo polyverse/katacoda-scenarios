@@ -1,3 +1,3 @@
 #!/bin/sh
 
-[ -d /tmp/foobar ] && echo "done"
+[ -d /outertmp/foobar ] && echo "done"
