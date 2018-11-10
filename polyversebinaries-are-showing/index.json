@@ -24,6 +24,5 @@
   },
   "backend": {
     "imageid": "polyverse-ubuntu"
-  },
-  "private": true
+  }
 }
