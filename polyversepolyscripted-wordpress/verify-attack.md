@@ -1,5 +1,5 @@
 Our hack injected a file called hack.php at a well-known location
-which should be available at the URL: [wordpresshost:/hackphp](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/hack.php)
+which should be available at the URL: [wordpresshost:/hack.php](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/hack.php)
 
 If you had a syntax error, it just might be the best syntax
 error you've ever had! Not only did you successfully stop a previously

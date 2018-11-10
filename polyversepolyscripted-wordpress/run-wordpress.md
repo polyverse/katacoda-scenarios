@@ -8,9 +8,9 @@ that is unique to this specific instance on your right.)
 
 ## Plain/Stopck WordPress
 
-`docker run --name wp-cont --link mysql-cont:mysql -p 80:80 polyverse/demo-wp-standard`{{execute}}
+`docker run --name wp-cont --link mysql-cont:mysql -p 80:80 -d polyverse/demo-wp-standard`{{execute}}
 
 ## Polyscripted WordPress
 
-`docker run -e "MODE=poly" --name wp-cont --link mysql-cont:mysql -p 80:80  polyverse/ps-wp-image`{{execute}}
+`docker run -e "MODE=poly" --name wp-cont --link mysql-cont:mysql -p 80:80 -d polyverse/ps-wp-image`{{execute}}
 
