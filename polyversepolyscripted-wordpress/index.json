@@ -4,16 +4,21 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
-        "text": "step1.md"
+        "title": "Run Wordpress",
+        "text": "run-wordpress.md",
+        "code": "start-sql.sh"
       },
       {
-        "title": "Step 2",
-        "text": "step2.md"
+        "title": "Verify Wordpress is up",
+        "text": "verify-wordpress.md"
       },
       {
-        "title": "Step 3",
-        "text": "step3.md"
+        "title": "Attack Wordpress",
+        "text": "attack-wordpress.md"
+      },
+      {
+        "title": "Verify attack Wordpress",
+        "text": "verify-attack.md"
       }
     ],
     "intro": {
@@ -24,7 +29,9 @@
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "terminal",
+      "showdashboard": true,
+      "dashboards": [{"name": "WordPress On Port 80", "port": 80}]
   },
   "backend": {
     "imageid": "polyverse-ubuntu"
