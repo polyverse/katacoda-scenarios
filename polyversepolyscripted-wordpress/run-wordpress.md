@@ -6,7 +6,7 @@ wordpress in Plain Mode/Stock Mode (WordPress as it exists
 everywhere on the planet), or start it in Polyscripted Mode (A WordPress
 that is unique to this specific instance on your right.)
 
-## Plain/Stopck WordPress
+## Plain/Stock WordPress
 
 `docker run --name wp-cont --link mysql-cont:mysql -p 80:80 -d polyverse/demo-wp-standard`{{execute}}
 
