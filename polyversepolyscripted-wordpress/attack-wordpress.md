@@ -15,7 +15,7 @@ Let's create a hack file:
 
 You may modify the file any way you wish.
 
-Once it is injection to your satisfaction, let's copy the file
+Once the attack is built up to your satisfaction, let's copy the file
 into the wordpress container, simulating an injection..
 
 `docker cp hack.php wp-cont:/var/www/html/`{{execute}}

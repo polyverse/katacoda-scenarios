@@ -1,19 +1,15 @@
 {
-  "title": "Your binaries are showing",
+  "title": "Your binaries are showing!",
   "description": "Ropoly is a powerful tool to analyze binaries and figure out how attackers might exploit them. Let's expose them for what they are.",
   "details": {
     "steps": [
       {
-        "title": "Step 1",
-        "text": "step1.md"
+        "title": "Get and Start Ropoly...",
+        "text": "start-ropoly.md"
       },
       {
-        "title": "Step 2",
-        "text": "step2.md"
-      },
-      {
-        "title": "Step 3",
-        "text": "step3.md"
+        "title": "Play with Ropoly...",
+        "text": "play-with-ropoly.md"
       }
     ],
     "intro": {
