@@ -12,5 +12,8 @@ that is unique to this specific instance on your right.)
 
 ## Polyscripted WordPress
 
+*NOTE: This version takes JUST a bit longer to start because it's generating a new
+PHP on the fly, as well as transforming WordPress to it.*
+
 `docker run -e "MODE=poly" --name wp-cont --link mysql-cont:mysql -p 80:80 -d polyverse/ps-wp-image`{{execute}}
 
