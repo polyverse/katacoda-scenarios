@@ -1,3 +1,3 @@
-Preparing an Alpine Container for us to run the demo.
+To begin, we prepare the Alpine Container needed to run the demo.
 
 Press Continue when the environment is ready.
