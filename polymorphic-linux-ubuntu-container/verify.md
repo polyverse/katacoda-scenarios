@@ -1,4 +1,4 @@
-Let's verify that we did indeed scramble packages on the system.
+Let's verify that we did actually scramble packages on the system
 
 We can do this in multiple ways.
 
