@@ -1,3 +1,3 @@
-Preparing an Ubuntu Container for us to run the demo.
+Preparing an Ubuntu Container for our demo
 
-Press Continue when the environment is ready.
+Press Continue when the terminal on the right displays "Evironment ready!"

@@ -1,7 +1,7 @@
-As we demonstrated, installing scrambled packages is a trivial and simple experience.
+As we saw, installing polymorphic packages is a trivial and simple experience.
 
-In fact, you may use the free trial key on any Linux machine to get those machines scrambled.
+If you'd like to take advantage of Polyverse's Moving Target Defense techniques on your own Linux hosts, feel free to use our free trial
 
 `curl https://sh.polyverse.io | sh -s install czcw7pjshny8lzzog8bgiizfr demo@polyverse.io`{{copy}}
 
-Spread the word!
+Spread the word and enjoy the peace of mind only offered via Moving Target Defense!
