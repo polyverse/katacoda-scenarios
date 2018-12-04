@@ -15,7 +15,7 @@ any order that you wish.
 
 ## Stop running wordpress
 
-`docker stop wordpress`[{execute}}
+`docker stop wordpress`{{execute}}
 
 ## Relaunch in Plain/Stock WordPress mode
 
