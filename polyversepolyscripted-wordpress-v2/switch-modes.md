@@ -31,5 +31,5 @@ any order that you wish.
 
 ## Access Injected File
 
-[wordpresshost:/hack.php](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/hack.php)
+[wordpresshost/hack.php?arg=1; echo phpinfo();](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/hack.php?arg=1%3B%20echo%20phpinfo%28%29%3B)
 
