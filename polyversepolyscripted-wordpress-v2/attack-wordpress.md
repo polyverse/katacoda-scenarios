@@ -12,7 +12,7 @@ eval("\$myvar = \$x;");
 
 First, we create a vulnerable file:
 
-`echo "<?php \$myvar = \"varname\"; \$x = \$_GET['arg']; eval(\"\\\$myvar = \\\$x;\"); ?>" >hack.php`{{execute}}
+`echo "<?php \$myvar = \"varname\"; \$x = \$_GET['arg']; eval(\"\\\$myvar = \$x;\"); ?>" >hack.php`{{execute}}
 
 Now let's inject it as if this were a bug in the original codebase.
 
