@@ -13,17 +13,13 @@ You may try to re-inject the hack as well.
 All the commands you require are listed below, and you can run them in
 any order that you wish.
 
-## Stop running wordpress
-
-`docker stop wordpress`{{execute}}
-
 ## Relaunch in Plain/Stock WordPress mode
 
-`docker run --rm -d --name wordpress -v $PWD/wordpress:/wordpress  --link mysql-host:mysql -p 80:80  polyverse/polyscripted-wordpress:11b6a9ee9a8422b414ed2c68f59bb3eee44bef63`{{execute}}
+`docker stop wordpress && docker run --rm -d --name wordpress -v $PWD/wordpress:/wordpress  --link mysql-host:mysql -p 80:80  polyverse/polyscripted-wordpress:b1805560d812c84e441b0ca0326c66bf5522c5ad`{{execute}}
 
 ## Relaunch in Polyscripted WordPress mode
 
-`docker run --rm -d -e "MODE=polyscripted" --name wordpress -v $PWD/wordpress:/wordpress  --link mysql-host:mysql -p 80:80  polyverse/polyscripted-wordpress:11b6a9ee9a8422b414ed2c68f59bb3eee44bef63`{{execute}}
+`docker stop wordpress && docker run --rm -d -e "MODE=polyscripted" --name wordpress -v $PWD/wordpress:/wordpress  --link mysql-host:mysql -p 80:80  polyverse/polyscripted-wordpress:b1805560d812c84e441b0ca0326c66bf5522c5ad`{{execute}}
 
 ## Inject code
 
