@@ -1,8 +1,7 @@
-The terminal on your right should be starting a MySQL Docker Container
-to connect our wordpress to. This is a fairly routine step.
+The terminal on your right should be starting a routine MySQL Docker Container to connect our WordPress site. 
 
 When MySQL is ready, run either of the commands below to start
-wordpress in Plain Mode/Stock Mode (WordPress as it exists
+WordPress in Plain Mode/Stock Mode (WordPress as it exists
 everywhere on the planet), or start it in Polyscripted Mode (A WordPress
 that is unique to this specific instance on your right.)
 
