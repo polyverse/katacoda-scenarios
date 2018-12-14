@@ -1,17 +1,15 @@
-But wait, there's more!
-
 Polyscripted mode does not allow new plugins or new code to be adapted.
 This is an intentional side effect of preventing code injection.
 
 However, by simply switching WordPress back to plain/stock mode, you
 can make changes easily.
 
-In order to do that, shut down the currently running instance, then
-relaunch in either mode you prefer, and access the WordPress Endpoint.
-You may try to re-inject the hack as well.
+In order to make the switch, shut down the currently running instance then
+relaunch in either mode you prefer and access the WordPress Endpoint.
+You can even try to re-inject the hack as well.
 
-All the commands you require are listed below, and you can run them in
-any order that you wish.
+All the commands you require are listed below and can be run in
+any order you wish.
 
 ## Relaunch in Plain/Stock WordPress mode
 
