@@ -1,8 +1,7 @@
-Now that we've subscribed to the Polyverse mirrors, it is transparent to the host. The package manager doesn't know
-anything different, and we can use all its power to our benefit.
+Great work, you are now subscribed to the Polyverse mirrors. This new repository is completely transparent to you, and does not change how you use your package manager.
 
-To reinstall all packages, for Red Hat Enterprise Linux, we run:
+In order to get the full power of Polymorphic Linux reinstall all packages. For Red Hat Enterprise Linux, lets run:
 
 `yum update -y && yum reinstall -y \*`{{execute}}
 
-All this command does, is updates the package manager metadata, and reinstalls all packages in-place.
+This command updates the package manager metadata and then reinstalls all packages in-place.
