@@ -3,6 +3,6 @@ anything different, and we can use all its power to our benefit.
 
 To reinstall all packages, for Red Hat Enterprise Linux, we run:
 
-`yum reinstall \*`{{execute}}
+`yum update -y && yum reinstall -y \*`{{execute}}
 
 All this command does, is updates the package manager metadata, and reinstalls all packages in-place.
