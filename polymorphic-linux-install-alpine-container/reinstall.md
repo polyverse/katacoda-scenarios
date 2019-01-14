@@ -2,6 +2,6 @@ Great work, you are now subscribed to the Polyverse mirrors. This new repository
 
 In order to get the full power of Polymorphic Linux reinstall all packages. For Alpine, lets run:
 
-`sed -n -i '/repo.polyverse.io/p' /etc/apk/repositories && apk upgrade --update-cache --available`{{execute}}
+`apk update && apk upgrade --available --no-cache && sed -in 's/^#//g' /etc/apk/repositories`{{execute}}
 
 This command updates the package manager metadata and then reinstalls all packages in-place.
