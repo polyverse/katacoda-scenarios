@@ -7,7 +7,7 @@ service docker start
 cat << EOF > /tmp/noexit.sh
 !/bin/sh
 echo "Preparing RHEL 7.5 container environment..."
-yum update -y && yum install -y bash curl which
+yum makecache && yum install -y bash curl which
 clear
 echo "Environment ready!"
 echo "done" > /etc/polyverse-env-ready
