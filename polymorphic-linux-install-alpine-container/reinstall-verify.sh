@@ -1,3 +1,3 @@
 #!/bin/sh
 
-[ "$(docker exec demo /sbin/apk policy curl | grep -i polyverse)" != "" ] && echo "done"
+[ "$(docker exec demo /sbin/apk policy musl | grep -i polyverse)" != "" ] && echo "done"
