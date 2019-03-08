@@ -2,7 +2,7 @@
   "pathwayTitle": "Polymorphic Linux",
   "title": "Ubuntu Container Installation",
   "description": "Polymorphic Linux installation in an Ubuntu Container",
-  "difficulty": "trivial",
+  "difficulty": "getting started",
   "time": "1 minute",
   "details": {
     "steps": [
