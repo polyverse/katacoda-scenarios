@@ -2,7 +2,7 @@
   "pathwayTitle": "Polymorphic Linux",
   "title": "Ubuntu Host Installation",
   "description": "Polymorphic Linux installation on an Ubuntu Host",
-  "difficulty": "trivial",
+  "difficulty": "Intermediate",
   "time": "10 minutes",
   "details": {
     "steps": [
