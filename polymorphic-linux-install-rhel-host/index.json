@@ -2,7 +2,7 @@
   "pathwayTitle": "Polymorphic Linux",
   "title": "Red Hat Enterprise Linux Host Installation",
   "description": "Polymorphic Linux installation on an RHEL Host",
-  "difficulty": "trivial",
+  "difficulty": "advanced",
   "time": "10 minutes",
   "details": {
     "steps": [
