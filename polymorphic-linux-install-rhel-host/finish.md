@@ -1,4 +1,4 @@
-As we demonstrated, installing scrambled packages is a trivial and simple experience.
+Installing scrambled packages is a simple experience.
 
-If you would like to deploy Polymorphic packages on Red Hat Enterprise Linux on
+If you would like to deploy a Polymorphic version of Red Hat Enterprise Linux on
 your own hosts or conduct further tests, please contact sales@polyverse.io.
