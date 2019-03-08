@@ -2,7 +2,7 @@
   "pathwayTitle": "Polymorphic Linux",
   "title": "Red Hat Enterprise Linux Container Installation",
   "description": "Polymorphic Linux installation on an RHEL Container",
-  "difficulty": "trivial",
+  "difficulty": "Intermediate",
   "time": "10 minutes",
   "details": {
     "steps": [
