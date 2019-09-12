@@ -5,7 +5,7 @@ yum install -y docker
 service docker start
 
 cat << EOF > /tmp/noexit.sh
-!/bin/sh
+#!/bin/sh
 echo "Preparing RHEL 7.5 container environment..."
 yum makecache && yum install -y bash curl which
 clear

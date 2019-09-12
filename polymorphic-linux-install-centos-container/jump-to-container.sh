@@ -1,7 +1,7 @@
 #!/bin/sh
 
 cat << EOF > /tmp/noexit.sh
-!/bin/sh
+#!/bin/sh
 echo "Preparing CentOS container environment..."
 yum makecache && yum install -y bash curl which
 clear

@@ -1,7 +1,7 @@
 #!/bin/sh
 
 cat << EOF > /tmp/noexit.sh
-!/bin/sh
+#!/bin/sh
 echo "Preparing Alpine container environment..."
 apk update && apk add bash curl util-linux
 clear
