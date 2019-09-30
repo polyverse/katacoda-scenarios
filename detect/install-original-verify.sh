@@ -1,0 +1,1 @@
+pgrep nginx && echo "done"

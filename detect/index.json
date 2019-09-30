@@ -1,0 +1,54 @@
+{
+  "title": "Intrusion Detection",
+  "description": "Intrusion detection",
+  "difficulty": "Beginner",
+  "time": "5 Minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Install Nginx",
+        "text": "install-original.md",
+        "courseData": "install-original.sh"
+      },
+      {
+        "title": "Run Exploit",
+        "text": "exploit-orginal.md"
+      },
+      {
+        "title": "Install Polymorphic Nginx",
+        "text": "install-polyverse.md"
+      },
+      {
+        "title": "Run Exploit on Polymorphic Nginx",
+        "text": "exploit-polyverse.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "courseData": "intro.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "exploit",
+          "target": "/bin",
+          "chmod": "+x"
+        }
+      ]
+    }
+  },
+  "environment": {
+    "hideintro": true,
+    "uilayout": "terminal-iframe",
+    "showdashboards": true,
+    "dashboards": [{"name": "Nginx", "port": 80}, {"name": "Dashboard", "port": 8080}]
+  },
+  "backend": {
+    "imageid": "ubuntu",
+    "port": "8080"
+  },
+  "private": true
+}
