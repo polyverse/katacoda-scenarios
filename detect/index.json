@@ -20,7 +20,8 @@
       },
       {
         "title": "Run Exploit on Polymorphic Nginx",
-        "text": "exploit-polyverse.md"
+        "text": "exploit-polyverse.md",
+        "courseData": "exploit-polyverse.sh"
       }
     ],
     "intro": {
@@ -34,6 +35,11 @@
       "host01": [
         {
           "file": "exploit",
+          "target": "/bin",
+          "chmod": "+x"
+        },
+        {
+          "file": "exploit2",
           "target": "/bin",
           "chmod": "+x"
         }
