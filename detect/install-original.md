@@ -1,6 +1,6 @@
 Install Nginx
 
-`sudo apt-get install nginx -y`{{execute}}
+`sudo apt-get update && apt-get install nginx -y`{{execute}}
 
 Now we can see the page at
 
