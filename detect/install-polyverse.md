@@ -6,7 +6,7 @@ Fist we install polyverse...
 
 Now that polyverse is installed we can install a polymorphic version of Nginx
 
-`apt update && apt -y install nginx`{{execute}}
+`sudo apt-get update && sudo apt-get -y install nginx`{{execute}}
 
 Once that has finished updating, restart the Nginx service
 
