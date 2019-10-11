@@ -55,5 +55,5 @@
     "imageid": "ubuntu",
     "port": "8080"
   },
-  "private": false
+  "private": true
 }
