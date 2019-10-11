@@ -1,10 +1,10 @@
-Now we can take a look at the dashboard when a Polyverse-protected version of Nginx is run.
-
-Let’s begin by installing Polyverse...
+Now let's install Polymorphic Linux.
 
 `curl https://sh.polyverse.io | sh -s install czcw7pjshny8lzzog8bgiizfr webdemo@polyverse.com`{{execute}}
 
-Now that Polymorphic Linux is installed in the container we can add a polymorphic version of Nginx by running the command below.
+We just add our repositories to sources.list, allowing you to download Polymorphic versions of standard Linux packages and libraries, including Nginx.
+
+Use this command to install a polymorphic version of Nginx.
 
 `sudo apt-get update && sudo apt-get -y install nginx`{{execute}}
 
