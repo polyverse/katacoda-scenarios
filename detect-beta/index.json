@@ -1,9 +1,8 @@
 {
-  "pathwayTitle": "Polymorphic Linux",
-  "title": "Alpine Container Installation",
-  "description": "Polymorphic Linux installation in an Alpine Container",
-  "difficulty": "getting started",
-  "time": "1 minute",
+  "title": "Intrusion Detection",
+  "description": "Intrusion detection",
+  "difficulty": "Beginner",
+  "time": "5 Minutes",
   "details": {
     "steps": [
       {
@@ -26,21 +25,35 @@
     ],
     "intro": {
       "text": "intro.md",
-      "credits": "Erik Sundahl",
-      "code": "intro.sh"
+      "courseData": "intro.sh"
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "exploit",
+          "target": "/bin",
+          "chmod": "+x"
+        },
+        {
+          "file": "exploit2",
+          "target": "/bin",
+          "chmod": "+x"
+        }
+      ]
     }
   },
   "environment": {
-    "hideintro": true,
+    "hideintro": false,
     "uilayout": "terminal-iframe",
     "showdashboards": true,
     "dashboards": [{"name": "Nginx", "port": 80}, {"name": "Dashboard", "port": 8080}]
   },
   "backend": {
-    "imageid": "polyverse-ubuntu"
+    "imageid": "ubuntu",
+    "port": "8080"
   },
-  "private": true
+  "private": false
 }

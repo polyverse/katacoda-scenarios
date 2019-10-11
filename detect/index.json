@@ -46,7 +46,7 @@
     }
   },
   "environment": {
-    "hideintro": true,
+    "hideintro": false,
     "uilayout": "terminal-iframe",
     "showdashboards": true,
     "dashboards": [{"name": "Nginx", "port": 80}, {"name": "Dashboard", "port": 8080}]
