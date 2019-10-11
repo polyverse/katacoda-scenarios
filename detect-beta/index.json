@@ -11,18 +11,17 @@
         "text": "install-original.md"
       },
       {
-        "title": "Subscribe to Polyverse Repository",
-        "text": "subscribe.md",
-        "verify": "subscribe-verify.sh"
+        "title": "Run Exploit",
+        "text": "exploit-orginal.md"
       },
       {
-        "title": "Reinstall all packages",
-        "text": "reinstall.md",
-        "verify": "reinstall-verify.sh"
+        "title": "Install Polymorphic Nginx",
+        "text": "install-polyverse.md"
       },
       {
-        "title": "Verify Scrambled Packages",
-        "text": "verify.md"
+        "title": "Run Exploit on Polymorphic Nginx",
+        "text": "exploit-polyverse.md",
+        "courseData": "exploit-polyverse.sh"
       }
     ],
     "intro": {
