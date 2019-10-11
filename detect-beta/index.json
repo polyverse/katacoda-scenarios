@@ -1,59 +1,44 @@
 {
-  "title": "Intrusion Detection",
-  "description": "Intrusion detection",
-  "difficulty": "Beginner",
-  "time": "5 Minutes",
+  "pathwayTitle": "Polymorphic Linux",
+  "title": "Alpine Container Installation",
+  "description": "Polymorphic Linux installation in an Alpine Container",
+  "difficulty": "getting started",
+  "time": "1 minute",
   "details": {
     "steps": [
       {
-        "title": "Install Nginx",
-        "text": "install-original.md"
+        "title": "Preparing Alpine Container environment",
+        "text": "prep.md",
+        "verify": "prep-verify.sh"
       },
       {
-        "title": "Run Exploit",
-        "text": "exploit-orginal.md"
+        "title": "Subscribe to Polyverse Repository",
+        "text": "subscribe.md",
+        "verify": "subscribe-verify.sh"
       },
       {
-        "title": "Install Polymorphic Nginx",
-        "text": "install-polyverse.md"
+        "title": "Reinstall all packages",
+        "text": "reinstall.md",
+        "verify": "reinstall-verify.sh"
       },
       {
-        "title": "Run Exploit on Polymorphic Nginx",
-        "text": "exploit-polyverse.md",
-        "courseData": "exploit-polyverse.sh"
+        "title": "Verify Scrambled Packages",
+        "text": "verify.md"
       }
     ],
     "intro": {
       "text": "intro.md",
-      "credits": "Erik Sundahl"
+      "credits": "Archis Gore",
+      "code": "intro.sh"
     },
     "finish": {
       "text": "finish.md"
-    },
-    "assets": {
-      "host01": [
-        {
-          "file": "exploit",
-          "target": "/bin",
-          "chmod": "+x"
-        },
-        {
-          "file": "exploit2",
-          "target": "/bin",
-          "chmod": "+x"
-        }
-      ]
     }
   },
   "environment": {
-    "hideintro": true,
-    "uilayout": "terminal-iframe",
-    "showdashboards": true,
-    "dashboards": [{"name": "Nginx", "port": 80}, {"name": "Dashboard", "port": 8080}]
+    "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "ubuntu",
-    "port": "8080"
-  },
-  "private": true
+    "imageid": "polyverse-ubuntu"
+  }
 }
