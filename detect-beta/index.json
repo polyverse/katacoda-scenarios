@@ -26,7 +26,7 @@
     ],
     "intro": {
       "text": "intro.md",
-      "credits": "Archis Gore",
+      "credits": "Erik Sundahl",
       "code": "intro.sh"
     },
     "finish": {
@@ -34,9 +34,13 @@
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "hideintro": true,
+    "uilayout": "terminal-iframe",
+    "showdashboards": true,
+    "dashboards": [{"name": "Nginx", "port": 80}, {"name": "Dashboard", "port": 8080}]
   },
   "backend": {
     "imageid": "polyverse-ubuntu"
-  }
+  },
+  "private": true
 }
