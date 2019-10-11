@@ -25,7 +25,9 @@
     ],
     "intro": {
       "text": "intro.md",
-      "courseData": "intro.sh"
+      "credits": "Erik Sundahl",
+      "courseData": "intro.sh",
+      "code": "echo \"hello\""
     },
     "finish": {
       "text": "finish.md"
