@@ -7,9 +7,8 @@
   "details": {
     "steps": [
       {
-        "title": "Preparing Alpine Container environment",
-        "text": "prep.md",
-        "verify": "prep-verify.sh"
+        "title": "Install Nginx",
+        "text": "install-original.md"
       },
       {
         "title": "Subscribe to Polyverse Repository",
