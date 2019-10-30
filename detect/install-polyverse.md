@@ -6,7 +6,7 @@ We just add our repositories to sources.list, allowing you to download Polymorph
 
 Use this command to install a polymorphic version of Nginx.
 
-`sudo apt-get update && sudo apt-get -y install nginx`{{execute}}
+`sudo apt-get update && sudo apt-get -y install --reinstall nginx`{{execute}}
 
 Once that has finished updating, restart the Nginx service.
 
