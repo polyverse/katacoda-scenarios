@@ -5,4 +5,4 @@ host. To use, simply point your package repository to the Polyverse repositories
 We provide a simple script to subscribe to the mirrors, this command can be found on the
 [free trial page](https://polyverse.io/polymorphic-linux-installation-guide/)of our website or simply click on the command below:
 
-`curl https://sh.polyverse.io | sh -s install czcw7pjshny8lzzog8bgiizfr webdemo@polyverse.io`{{execute}}
+`curl https://sh.polyverse.io | sh -s install DB11NjMYGSrYaEzDeNdJvZhbo webdemo@polyverse.io`{{execute}}

@@ -4,4 +4,4 @@ host, by pulling them from a Polyverse "mirror".
 We provide a simple script to subscribe to the mirrors, found on the
 [free trial page](https://polyverse.io/polymorphic-linux-installation-guide/).
 
-`curl https://sh.polyverse.io | sh -s install czcw7pjshny8lzzog8bgiizfr webdemo@polyverse.io`{{execute}}
+`curl https://sh.polyverse.io | sh -s install 81jDtYYsc0jQLRYBTgxYQgsSA webdemo@polyverse.io`{{execute}}
