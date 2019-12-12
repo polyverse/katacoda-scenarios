@@ -4,4 +4,4 @@ Polymorphic Linux is distributed as drop-in replacement packages for all of the 
 We provide a simple script to subscribe to the mirrors, found on the
 [free trial page](https://polyverse.io/polymorphic-linux-installation-guide/).
 
-`curl https://sh.polyverse.io | sh -s install H6gOgecwTouqHckMz0hHJFH1F rhelwebdemo@polyverse.io`{{execute}}
+`curl https://sh.polyverse.io | sh -s install hxEcy3ESX5k31MFwxiGH5thyR rhelwebdemo@polyverse.io`{{execute}}
