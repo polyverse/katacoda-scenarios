@@ -12,4 +12,4 @@ EOF
 
 chmod a+x /tmp/noexit.sh
 
-docker run --name demo --rm -it -v /tmp/noexit.sh:/noexit.sh alpine:3.8 /bin/sh /noexit.sh
+docker run --name demo --rm -it -v /tmp/noexit.sh:/noexit.sh alpine:3.11 /bin/sh /noexit.sh
