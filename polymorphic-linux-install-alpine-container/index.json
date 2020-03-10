@@ -4,6 +4,7 @@
   "description": "Polymorphic Linux installation in an Alpine Container",
   "difficulty": "getting started",
   "time": "1 minute",
+  "private": true,
   "details": {
     "steps": [
       {
