@@ -1,7 +1,7 @@
-This guide demonstrates a production installation of Polymorphic Linux on CentOS.
+This guide demonstrates a production installation of Polymorphing for Linux on CentOS.
 
-This tutorial will walk through the two simple steps to a complete Polymorphic Linux installation:
+This tutorial will walk through the two simple steps to a complete an installation of Polymorphing:
 * Subscribing to Polyverse repositories
 * Reinstallation of packages
 
-Finally, we will verify Polymorphic Linux in a variety of ways.
+Finally, we will verify Polymorphing in a variety of ways.
