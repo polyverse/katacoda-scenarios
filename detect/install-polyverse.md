@@ -1,6 +1,6 @@
 Now let's install Polymorphic Linux.
 
-`curl https://sh.polyverse.io | sh -s install czcw7pjshny8lzzog8bgiizfr webdemo@polyverse.com`{{execute}}
+`curl https://sh.polyverse.io | sh -s install JNQ0WGbinpS7iOKOpsaos4cpm webdemo@polyverse.com`{{execute}}
 
 We just add our repositories to sources.list, allowing you to download Polymorphic versions of standard Linux packages and libraries, including Nginx.
 

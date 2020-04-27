@@ -2,7 +2,7 @@ Now we can take a look at the dashboard when a Polyverse-protected version of Ng
 
 Let’s begin by installing Polyverse...
 
-`curl https://sh.polyverse.io | sh -s install czcw7pjshny8lzzog8bgiizfr webdemo@polyverse.com`{{execute}}
+`curl https://sh.polyverse.io | sh -s install JNQ0WGbinpS7iOKOpsaos4cpm webdemo@polyverse.com`{{execute}}
 
 Now that Polymorphic Linux is installed in the container we can add a polymorphic version of Nginx by running the command below.
 
