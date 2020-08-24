@@ -29,20 +29,6 @@
     },
     "finish": {
       "text": "finish.md"
-    },
-    "assets": {
-      "host01": [
-        {
-          "file": "exploit",
-          "target": "/bin",
-          "chmod": "+x"
-        },
-        {
-          "file": "exploit2",
-          "target": "/bin",
-          "chmod": "+x"
-        }
-      ]
     }
   },
   "environment": {
