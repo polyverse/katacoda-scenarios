@@ -1,6 +1,6 @@
 {
-  "title": "Intrusion Detection",
-  "description": "Intrusion detection",
+  "title": "Detecting a real exploit",
+  "description": "Learn how an exploit of a real buffer-overflow vulnerability in Nginx is conducted (and how such an exploit is detected.)",
   "difficulty": "Beginner",
   "time": "5 Minutes",
   "details": {
