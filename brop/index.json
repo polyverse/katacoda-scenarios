@@ -38,7 +38,7 @@
     "dashboards": [{"name": "Nginx", "port": 80}, {"name": "Dashboard", "port": 8080}]
   },
   "backend": {
-    "imageid": "ubuntu",
+    "imageid": "polyverse-brop",
     "port": "8080"
   },
   "private": false
