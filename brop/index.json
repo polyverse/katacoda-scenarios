@@ -6,21 +6,16 @@
   "details": {
     "steps": [
       {
-        "title": "Install Nginx",
-        "text": "install-original.md"
+        "title": "Start vulnerable Nginx",
+        "text": "start-nginx.md"
       },
       {
         "title": "Run Exploit",
-        "text": "exploit-orginal.md"
+        "text": "exploit.md"
       },
       {
-        "title": "Install Polymorphic Nginx",
-        "text": "install-polyverse.md"
-      },
-      {
-        "title": "Run Exploit on Polymorphic Nginx",
-        "text": "exploit-polyverse.md",
-        "courseData": "exploit-polyverse.sh"
+        "title": "Detect exploit",
+        "text": "detect.md"
       }
     ],
     "intro": {
@@ -35,7 +30,11 @@
     "hideintro": false,
     "uilayout": "terminal-iframe",
     "showdashboards": true,
-    "dashboards": [{"name": "Nginx", "port": 80}, {"name": "Dashboard", "port": 8080}]
+    "dashboards": [{"name": "Nginx Web UI", "port": 80}],
+    "terminals": [
+      {"name": "Victim Nginx", "target": "host01"},
+      {"name": "Remote Attacker", "target": "host01"}
+    ]
   },
   "backend": {
     "imageid": "polyverse-brop",

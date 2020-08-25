@@ -1,3 +1,7 @@
-This guide simulates how we can use Polyverse’s no click security solution for Linux to detect intrusions. The tutorial will walk through the exploitation of a non-Polyversed instance using a buffer overflow and the detection of the same exploit on a Polyversed instance.
+Remotely exploiting an Nginx buffer overflow vulnerability to open a shell.
 
-In four simple steps learn how our Polymorphic Linux solution, detects, defends, and deters threats. These attacks are logged and sent to the SIEM of your choice, giving you unprecedented visibility into zero-day cyberattacks. 
+This tutorial is based on the seminal paper on [Blind Return-Oriented Programming attacks from Stanford University](https://www.scs.stanford.edu/brop/bittau-brop.pdf). We will exploit the (now-patched) [CVE-2013-2028 vulnerability](https://cve.mitre.org/cgi-bin/cvename.cgi?name=cve-2013-2028).
+
+An excellent way to study and learn how a real buffer overflow exploit works.
+
+Let's get started...

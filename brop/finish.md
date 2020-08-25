@@ -1,9 +1,5 @@
-Being able to detect intruders quickly is integral to keeping your systems secure.
+Exploiting Buffer Overflows is far simpler than widely assumed. Detecting ROP attacks on the network is difficult, if not impossible, because they're just regular valid packets.
 
-Polymorphic Linux not only stops an entire class of exploits before they happen,
-but also alerts you to the attempts, allowing you to get the jump on attackers instead of the reverse.
+They do, however, leave loud noisy side-effects on the victim if one knows where to look. If you'd like to detect attacks on your own hosts, we recommend the [Open Source Zerotect agent](https://github.com/polyverse/zerotect).
 
-Sign up to be alerted when detection becomes available by clicking on this link:
-
-[Yes, I want to detect when my systems are being attacked](https://info.polyverse.com/detect_finish)
-
+If you'd like to defend against these attacks proactively on the zeroth day, i.e. to gain complete immunity against this class of attacks, consider [Polymorphing for Linux](https://polyverse.com/products/polymorphing-linux-security/).
