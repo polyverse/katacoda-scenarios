@@ -1,8 +1,8 @@
 Let's start a vulnerable Nginx 1.4.0 server. Run this command in our victim terminal:
 
-`docker run -it --rm --name target -p 80:80 polyverse/vulnerable-nginx-1.4.0:poly-dev`{{execute "Victim Nginx"}}
+`docker run -it --rm --name target -p 80:80 polyverse/vulnerable-nginx-1.4.0:poly-dev`{{execute "T2"}}
 
-You can see the default Nginx index page at this link:
+Nginx will take a few moments to start up (and get an SSL cert). You can see the default Nginx index page at this link:
 
 [Nginx](https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com/)
 
