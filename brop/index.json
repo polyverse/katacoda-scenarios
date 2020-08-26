@@ -7,7 +7,8 @@
     "steps": [
       {
         "title": "Start vulnerable Nginx",
-        "text": "start-nginx.md"
+        "text": "start-nginx.md",
+        "verify": "start-nginx-verify.sh"
       },
       {
         "title": "Run Exploit",
@@ -30,11 +31,7 @@
     "hideintro": false,
     "uilayout": "terminal-iframe",
     "showdashboards": true,
-    "dashboards": [{"name": "Nginx Web UI", "port": 80}],
-    "terminals": [
-      {"name": "Victim Nginx", "target": "host01"},
-      {"name": "Remote Attacker", "target": "host01"}
-    ]
+    "dashboards": [{"name": "Nginx Web UI", "port": 80}]
   },
   "backend": {
     "imageid": "polyverse-brop",
