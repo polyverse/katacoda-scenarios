@@ -30,7 +30,12 @@
     "hideintro": false,
     "uilayout": "terminal-iframe",
     "showdashboards": true,
-    "dashboards": [{"name": "Nginx Web UI", "port": 80}]
+    "dashboards": [{"name": "Nginx Web UI", "port": 80}],
+    "terminals": [
+      {"name": "Victim Nginx", "target": "host01"},
+      {"name": "Remote Attacker", "target": "host01"},
+      {"name": "Zerotect Detecter", "target": "host01"}
+    ]
   },
   "backend": {
     "imageid": "polyverse-brop",

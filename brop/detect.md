@@ -1,13 +1,11 @@
-Now let's install Polymorphic Linux.
+While this has been going on, we've been running a little open source program called [Zerotect](https://github.com/polyverse/zerotect) that knows how to detect exactly this category of exploits.
 
-`curl https://sh.polyverse.io | sh -s install JNQ0WGbinpS7iOKOpsaos4cpm webdemo@polyverse.com`{{execute}}
+Let's see what it tells us. We can begin by tailing logs:
 
-We just add our repositories to sources.list, allowing you to download Polymorphic versions of standard Linux packages and libraries, including Nginx.
+`cat /var/log/zerotect.log`{{execute T4}}
 
-Use this command to install a polymorphic version of Nginx.
+That's a LOT of noise! An attack of this sort, may look like a lot of arbitrary and unrelated segmentation faults or panics. But make no mistake, there's a pattern in these, and Zerotect knows how to find it.
 
-`sudo apt-get update && sudo apt-get -y install --reinstall nginx`{{execute}}
+A number of Polyverse dynamic mitigations make this attack even more noisy (in addition to preventing it, of course.)
 
-Once that has finished updating, restart the Nginx service.
-
-`sudo systemctl restart nginx`{{execute}}
+Get in touch with us if you'd like to see the mitigations in action.
