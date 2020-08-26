@@ -7,8 +7,7 @@
     "steps": [
       {
         "title": "Start vulnerable Nginx",
-        "text": "start-nginx.md",
-        "verify": "start-nginx-verify.sh"
+        "text": "start-nginx.md"
       },
       {
         "title": "Run Exploit",

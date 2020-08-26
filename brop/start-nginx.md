@@ -1,6 +1,6 @@
 Let's start a vulnerable Nginx 1.4.0 server:
 
-`docker run -it --rm --name target -p 80:80 polyverse/vulnerable-nginx-1.4.0:poly-dev`{{execute T1}}
+`docker run -it --rm --name target -p 80:80 polyverse/vulnerable-nginx-1.4.0:poly-dev`{{execute T2}}
 
 In a few moments, nginx will service a public-facing webpage here:
 
