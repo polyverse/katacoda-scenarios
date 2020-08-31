@@ -16,6 +16,8 @@ echo "[polycorder_config]" >> /etc/zerotect/zerotect.toml
 echo "auth_key = 'xU9XiObcoKnSNpRhpuwt5Lrem'" >> /etc/zerotect/zerotect.toml
 echo "node_id = '$node_id'" >> /etc/zerotect/zerotect.toml
 
+# View key: https://polycorder.polyverse.com/v1/events/cwgraph?authorization=QP3t2Nyv3khbq6HEhkkuE0Ccr&pastHours=24&org=true&global=false
+
 # Restart zerotect to pick up polycorder config
 systemctl restart zerotect
 
