@@ -1,6 +1,10 @@
 We've had [Zerotect](https://github.com/polyverse/zerotect) running in the background attempting to detect just this class of attack.
 
-You may navigate to the terminal that says `Zerotect Detector`, or look for the specific event which indicates an attack took place:
+It is analyzing events in real time and sending them to a hosted monitoring service. They are graphed here:
+
+[Live attack detection dashboard](https://[[HOST_SUBDOMAIN]]-8888-[[KATACODA_HOST]].environments.katacoda.com/)
+
+To view the raw logs that Zerotect emitted, and look for detected attacks in its log file:
 
 `cat /var/log/zerotect.log | grep -i "probe" `{{execute T4}}
 
