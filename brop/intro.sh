@@ -22,9 +22,13 @@ systemctl restart zerotect
 mkdir /graph
 cd /graph
 python -m SimpleHTTPServer 8888 &
-# Download bootstrapping image
-curl -sL -o /graph/graph.png "http://polycorder.polyverse.com/v1/events/cwgraph?authorization=QP3t2Nyv3khbq6HEhkkuE0Ccr&pastHours=1&org=false&global=false&nodeId=$node_id"
+
 # Create bootstrapping index.html
 echo "<HTML><HEAD><TITLE>Picture</TITLE></HEAD><BODY><IMG SRC=\"graph.png\"></BODY></HTML>" >/graph/index.html
 
+# Download graph every 5 seconds
+while [ 1 ]; do
+    sleep 5
+    curl -sL -o /graph/graph.png "http://polycorder.polyverse.com/v1/events/cwgraph?authorization=QP3t2Nyv3khbq6HEhkkuE0Ccr&pastHours=1&org=false&global=false&nodeId=$node_id"
+done
 
