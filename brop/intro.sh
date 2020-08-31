@@ -21,3 +21,7 @@ systemctl restart zerotect
 
 # Tell tinyproxy to proxy the graph on localhost
 echo "ReversePath \"/\" \"https://polycorder.polyverse.com/v1/events/cwgraph?authorization=QP3t2Nyv3khbq6HEhkkuE0Ccr&pastHours=1&org=false&global=false&nodeId=$node_id\"" >>/etc/tinyproxy/tinyproxy.conf
+echo "ReverseOnly Yes" >> /etc/tinyproxy/tinyproxy.conf
+echo "ReverseBaseURL \"https://[[HOST_SUBDOMAIN]]-8888-[[KATACODA_HOST]].environments.katacoda.com/\"" >> /etc/tinyproxy/tinyproxy.conf
+echo "Allow [[HOST_IP]]" >> /etc/tinyproxy/tinyproxy.conf
+
