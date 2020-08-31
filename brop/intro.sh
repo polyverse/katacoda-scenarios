@@ -5,4 +5,4 @@ insmod /root/mtd-module/src/mtd.ko
 echo "1" >/proc/sys/debug/exception-trace
 
 # Ignore fatal signals which are not
-echo "0" >/proc/sys/kernel/print-fatal-signals
+echo "1" >/proc/sys/kernel/print-fatal-signals
