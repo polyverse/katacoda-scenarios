@@ -20,8 +20,29 @@ echo "node_id = '$node_id'" >> /etc/zerotect/zerotect.toml
 systemctl restart zerotect
 
 # Tell tinyproxy to proxy the graph on localhost
-echo "ReversePath \"/\" \"https://polycorder.polyverse.com/v1/events/cwgraph?authorization=QP3t2Nyv3khbq6HEhkkuE0Ccr&pastHours=1&org=false&global=false&nodeId=$node_id\"" >>/etc/tinyproxy/tinyproxy.conf
-echo "ReverseOnly Yes" >> /etc/tinyproxy/tinyproxy.conf
-echo "ReverseBaseURL \"https://[[HOST_SUBDOMAIN]]-8888-[[KATACODA_HOST]].environments.katacoda.com/\"" >> /etc/tinyproxy/tinyproxy.conf
-echo "Allow [[HOST_IP]]" >> /etc/tinyproxy/tinyproxy.conf
+cat <<tinyconf >/etc/tinyproxy/tinyproxy.conf
+User tinyproxy
+Group tinyproxy
+Port 8888
+DefaultErrorFile "/usr/share/tinyproxy/default.html"
+StatFile "/usr/share/tinyproxy/stats.html"
+Logfile "/var/log/tinyproxy/tinyproxy.log"
+LogLevel Info
+PidFile "/run/tinyproxy/tinyproxy.pid"
+MaxClients 10
+MinSpareServers 1
+MaxSpareServers 2
+StartServers 2
+MaxRequestsPerChild 0
+ViaProxyName "tinyproxy"
+
+ConnectPort 443
+ConnectPort 563
+
+ReverseOnly Yes
+ReverseMagic Yes
+
+ReversePath "/" "https://polycorder.polyverse.com/v1/events/cwgraph?authorization=QP3t2Nyv3khbq6HEhkkuE0Ccr&pastHours=1&org=false&global=false&nodeId=$node_id"
+
+tinyconf
 
