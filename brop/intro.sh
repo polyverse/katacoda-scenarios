@@ -21,3 +21,5 @@ echo "node_id = '$node_id'" >> /etc/zerotect/zerotect.toml
 # Restart zerotect to pick up polycorder config
 systemctl restart zerotect
 
+# Tell tinyproxy to proxy the graph on localhost
+echo "ReversePath \"/\" \"https://polycorder.polyverse.com/v1/events/cwgraph?authorization=QP3t2Nyv3khbq6HEhkkuE0Ccr&pastHours=1&org=false&global=false&node_id=$node_id\"" >>/etc/tinyproxy/tinyproxy.conf
