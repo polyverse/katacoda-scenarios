@@ -19,5 +19,9 @@ echo "node_id = '$node_id'" >> /etc/zerotect/zerotect.toml
 # Restart zerotect to pick up polycorder config
 systemctl restart zerotect
 
-#"http://polycorder.polyverse.com/v1/events/cwgraph?authorization=QP3t2Nyv3khbq6HEhkkuE0Ccr&pastHours=1&org=false&global=false&nodeId=$node_id"
+mkdir /graph
+cd /graph
+python -m SimpleHTTPServer 8888 &
+curl -sL -o /graph/graph.png "http://polycorder.polyverse.com/v1/events/cwgraph?authorization=QP3t2Nyv3khbq6HEhkkuE0Ccr&pastHours=1&org=false&global=false&nodeId=$node_id"
+
 
