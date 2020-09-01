@@ -30,7 +30,7 @@ cd /graph
 python -m SimpleHTTPServer 8888 &
 
 # Create bootstrapping index.html
-echo "<HTML><HEAD><TITLE>Dashboard</TITLE><meta http-equiv=\"refresh\" content=\"5\"></HEAD><BODY><IMG SRC=\"graph.png\"></BODY></HTML>" >/graph/index.html
+echo "<HTML><HEAD><TITLE>Dashboard</TITLE><meta http-equiv=\"refresh\" content=\"5\"></HEAD><BODY><IMG SRC=\"graph.png\" style=\"max-width: 100%;height: auto;\"></BODY></HTML>" >/graph/index.html
 
 # Download graph every 5 seconds
 while [ 1 ]; do
