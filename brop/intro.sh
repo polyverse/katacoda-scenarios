@@ -21,7 +21,7 @@ chmod a+x ./install.sh
 
 # Add polycorder key and randomized nodeid to polycorder config
 echo "" >> /etc/zerotect/zerotect.toml
-echo "[polycorder_config]" >> /etc/zerotect/zerotect.toml
+echo "[polycorder]" >> /etc/zerotect/zerotect.toml
 echo "auth_key = 'xU9XiObcoKnSNpRhpuwt5Lrem'" >> /etc/zerotect/zerotect.toml
 echo "node_id = '$node_id'" >> /etc/zerotect/zerotect.toml
 
