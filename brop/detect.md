@@ -6,7 +6,7 @@ It is analyzing events in real time and sending them to a hosted monitoring serv
 
 To view the raw logs that Zerotect emitted, and look for detected attacks in its log file:
 
-`cat /var/log/zerotect.log | grep -i "probe" `{{execute T4}}
+`tail -f /var/log/zerotect.log | grep -i "probe"`{{execute T4}}
 
 You can see that there is an "InstructionPointerProbe". It means that there were a few consequtive faults where the instruction pointer (where the program is running) was within a few bytes of each other. We've grepped for the most important event, but you should feel free to open up/tail the log file and look at the rich event stream that makes this attack unmistakable with no prior knowledge.
 
