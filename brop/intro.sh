@@ -14,7 +14,7 @@ node_id=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1)
 [[ $(zerotect --help |grep analytics) != "" ]] && echo "Don't need zerotect reinstall" > /.zerotect_reinstall
 
 # Re-install latest zerotect until polyverse-brop environment gets promoted to prod
-curl -s -L https://github.com/polyverse/zerotect/releases/latest/download/install.sh
+curl -s -L -o install.sh https://github.com/polyverse/zerotect/releases/latest/download/install.sh
 chmod a+x ./install.sh
 ./install.sh --uninstall
 ./install.sh
