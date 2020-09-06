@@ -15,6 +15,13 @@ echo "" >> /etc/zerotect/zerotect.toml
 echo "[polycorder]" >> /etc/zerotect/zerotect.toml
 echo "auth_key = 'xU9XiObcoKnSNpRhpuwt5Lrem'" >> /etc/zerotect/zerotect.toml
 echo "node_id = '$node_id'" >> /etc/zerotect/zerotect.toml
+echo "" >> /etc/zerotect/zerotect.toml
+echo "[analytics]" >> /etc/zerotect/zerotect.toml
+echo "mode = 'Passthrough'" >> /etc/zerotect/zerotect.toml
+echo "justification = 'Summary'" >> /etc/zerotect/zerotect.toml
+echo "" >> /etc/zerotect/zerotect.toml
+
+
 
 # Restart zerotect to pick up polycorder config
 systemctl restart zerotect
