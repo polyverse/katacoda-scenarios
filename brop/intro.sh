@@ -8,7 +8,8 @@ echo "1" >/proc/sys/debug/exception-trace
 echo "1" >/proc/sys/kernel/print-fatal-signals
 
 # Randomized node id
-node_id=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1)
+random_str=$(cat /dev/urandom | tr -dc 'a-zA-Z0-9' | fold -w 32 | head -n 1)
+node_id="katacoda_brop_demo_$random_str"
 
 # Add polycorder key and randomized nodeid to polycorder config
 echo "" >> /etc/zerotect/zerotect.toml
