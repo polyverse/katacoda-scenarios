@@ -8,13 +8,11 @@
     "steps": [
       {
         "title": "Subscribe to Polyverse Repository",
-        "text": "subscribe.md",
-        "verify": "subscribe-verify.sh"
+        "text": "subscribe.md"
       },
       {
         "title": "Reinstall all packages",
-        "text": "reinstall.md",
-        "verify": "reinstall-verify.sh"
+        "text": "reinstall.md"
       },
       {
         "title": "Verify Scrambled Packages",
